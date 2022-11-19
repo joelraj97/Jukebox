@@ -1,0 +1,58 @@
+package Models;
+
+public class Podcast
+{
+private String podcastid;
+private String podcastname;
+private String speaker;
+private int episodes;
+private String filepath;
+
+    public Podcast(String podcastid, String podcastname, String speaker, int episodes, String filepath) {
+        this.podcastid = podcastid;
+        this.podcastname = podcastname;
+        this.speaker = speaker;
+        this.episodes = episodes;
+        this.filepath = filepath;
+    }
+
+    public String getPodcastid() {
+        return podcastid;
+    }
+
+    public void setPodcastid(String podcastid) {
+        this.podcastid = podcastid;
+    }
+
+    public String getPodcastname() {
+        return podcastname;
+    }
+
+    public void setPodcastname(String podcastname) {
+        this.podcastname = podcastname;
+    }
+
+    public String getSpeaker() {
+        return speaker;
+    }
+
+    public void setSpeaker(String speaker) {
+        this.speaker = speaker;
+    }
+
+    public int getEpisodes() {
+        return episodes;
+    }
+
+    public void setEpisodes(int episodes) {
+        this.episodes = episodes;
+    }
+
+    public String getFilepath() {
+        return filepath;
+    }
+
+    public void setFilepath(String filepath) {
+        this.filepath = filepath;
+    }
+}
